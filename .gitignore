@@ -14,6 +14,7 @@
 
 # production
 /build
+_static
 
 # misc
 .DS_Store
@@ -29,6 +30,14 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.secret
 
 # vercel
 .vercel
+
+node_modules
+.env
+
+#Hardhat files
+cache
+artifacts
